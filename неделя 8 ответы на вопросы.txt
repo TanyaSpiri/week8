@@ -1,0 +1,36 @@
+1. Bootstrap позволяет верстать сайты в несколько раз быстрее, чем это можно выполнить на «чистом» CSS и JavaScript. Он доступен, даже начинающий разработчик может верстать достаточно качественные макеты, которые трудно было бы выполнить без глубоких знаний веб-технологий и достаточной практики. Используется для быстрой вёрстки адаптивных дизайнов сайтов и веб-приложений. Поддерживает почти все версии браузеров.
+2. <button type="button" class="btn btn-warning">Предупреждение</button>
+3. <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 bg-primary" style="height: 500px;">Gallery</div>
+            <div class="col-12 col-md-8 bg-primary">
+                <div class="row">
+                    <div class="col-12 bg-primary" style="height: 200px;">Title</div>
+                    <div class="col-12 bg-primary" style="height: 300px;">Buy Box</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-primary" style="height: 100px;">Description</div>
+        </div>
+        <div class="row">
+            <div class="col bg-primary" style="height: 100px;">Related</div>
+        </div>
+    </div>
+4. <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+5. <div class="row no-gutters">
+6. <nav class="nav">
+  <a class="nav-link active" href="#">Active</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled" href="#">Disabled</a>
+</nav>
+7. Безразмерные колонки, которые дают больше гибкости при разработке шаблонов. 
+8. По вертикали - align-items- у row, align-self- у col; по горизонтали - justify-content- у row
+9. col-sm-6
+10. Если колонок больше 12, происходит "враппинг колонок": колонки в одной строке переходят на следующую строку, через каждые 12 элементов.
+11. Подключить шрифт Font Awesome к своему проекту +
+<i class="fa fa-instagram" aria-hidden="true"></i>
+12. container - это контейнер с фиксированной шириной, для центровки контейнера по середине шаблона; container-fluid - контейнер с шириной во весь экран.
